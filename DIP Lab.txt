@@ -1,0 +1,46 @@
+DIP Lab :-
+.m = extrension
+Make a file
+basic operation
+Objective :- Basic commands to familiarize with matlab & perform basic matrix operation.
+objective
+software used
+matlab 200 version, a & b
+theory
+use, how to use
+matlab code
+experiments
+result & discussion
+conclusion
+windows
+command, editor, workspace
+by default
+clc;
+clear all;
+close all;
+code is written in editor's window
+clc is used for clear all window
+subplot(1,2,1); = (row, column, position)
+handwritten file, result paste
+Array, Matrix, Transpose, Functions, zeroes, matrix index, sine, operating on whole matrices, element wise, division, multiplication, simple, linespace, 5 figures, (plot, stem) for plot, plot for continuous, stem for discrete one.
+
+% Putting several
+t=0:pi/100:2*pi;
+y=sin(t);
+subplot(1,2,1);
+plot(t,y);
+title('Sinwave');
+xlabel('time');
+ylabel('Amplitude');
+z=cos(t);
+subplot(1,2,2);
+plot(t,z);
+title('Cosinwave');
+xlabel('time');
+ylabel('Amplitude');
+
+pixel value range is 0 to 255
+4 projects
+4 group using image
+ml deep learning
+to stick images
